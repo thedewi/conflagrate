@@ -1,2 +1,4 @@
 conflagrate
 ===========
+
+A configuration tool.

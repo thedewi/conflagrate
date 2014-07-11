@@ -1,0 +1,19 @@
+{
+  "name": "conflagrate",
+  "version": "0.0.0",
+  "description": "conflagrate\r ===========",
+  "main": "conflagrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://thedewi@github.com/thedewi/conflagrate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedewi/conflagrate/issues"
+  },
+  "homepage": "https://github.com/thedewi/conflagrate"
+}

@@ -2,6 +2,7 @@
 var fs = require('fs');
 var _ = require('underscore');
 var Mustache = require('mustache');
+/*var Reflect =*/ require('harmony-reflect');
 
 // Utilities
 var die = function(msg) {
@@ -31,6 +32,16 @@ var profile = controlProfiles[profileName]
 var model = {};
 profile.forEach(function(configFilename) {
 	_(model).extend(JSON.parse(fs.readFileSync(configFilename)));
+});
+
+// Insert proxy for fail-fast model property access
+model = new Proxy(model, {
+	get: function(target, property) {
+		if (!(property in target)) {
+			throw new Error("Property '" + property + "' not found.");
+		}
+		return target[property];
+	}
 });
 
 // Process templates

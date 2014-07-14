@@ -4,6 +4,7 @@
   "description": "conflagrate\r ===========",
   "main": "conflagrate.js",
   "dependencies": {
+    "mustache": "^0.8.2",
     "underscore": "^1.6.0"
   },
   "devDependencies": {},

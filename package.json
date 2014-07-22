@@ -1,23 +1,15 @@
 {
   "name": "conflagrate",
   "version": "0.0.0",
-  "description": "conflagrate\r ===========",
-  "main": "conflagrate.js",
   "dependencies": {
     "harmony-reflect": "^1.0.1",
     "mustache": "^0.8.2",
     "underscore": "^1.6.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -harmony conflagrate.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://thedewi@github.com/thedewi/conflagrate.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/thedewi/conflagrate/issues"

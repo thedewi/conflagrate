@@ -6,6 +6,9 @@ var _ = require('underscore');
 var Mustache = require('mustache');
 /*var Reflect =*/ require('harmony-reflect');
 
+// Test harmony availability
+new Proxy({}, {});
+
 // Utilities
 var die = function(msg) {
 	console.error(msg);

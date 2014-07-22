@@ -1,6 +1,9 @@
 {
   "name": "conflagrate",
   "version": "0.0.0",
+  "bin": {
+    "conflagrate": "conflagrate.js"
+  },
   "dependencies": {
     "harmony-reflect": "^1.0.1",
     "mustache": "^0.8.2",

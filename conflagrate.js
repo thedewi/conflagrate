@@ -1,3 +1,5 @@
+#!/usr/bin/env node -harmony
+
 // Modules
 var fs = require('fs');
 var _ = require('underscore');

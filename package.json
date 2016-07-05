@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/thedewi/conflagrate",
   "devDependencies": {
-    "npm-shrinkwrap": "^200.5.1"
+    "browserify": "^13.0.1",
+    "npm-shrinkwrap": "^200.5.1",
+    "uglify-js": "^2.7.0"
   }
 }

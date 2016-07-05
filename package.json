@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/thedewi/conflagrate/issues"
   },
-  "homepage": "https://github.com/thedewi/conflagrate"
+  "homepage": "https://github.com/thedewi/conflagrate",
+  "devDependencies": {
+    "npm-shrinkwrap": "^200.5.1"
+  }
 }

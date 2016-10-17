@@ -1,4 +1,4 @@
-#!/usr/bin/env node -harmony
+#!/usr/bin/env node --harmony_proxies
 
 // Modules
 var fs = require('fs');
